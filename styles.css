@@ -84,27 +84,39 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 18px 50px 120px 50px;
 }
 
 .information-header {
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
+    padding-bottom: 18px;
 }
 
 .information-container {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
 }
 
 .information-content {
     display: flex;
     flex-direction: column;
+    align-items: center;
     height: auto;
+    max-width: 200px;
+}
+
+.information-content p {
+    color:#4e4444;
+    text-align: center;
 }
 
 .info-img {
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
     border: 4px solid #3882f6;
     border-radius: 8px;
 }
