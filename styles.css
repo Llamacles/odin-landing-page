@@ -120,3 +120,24 @@ body {
     border: 4px solid #3882f6;
     border-radius: 8px;
 }
+
+.quote-section {
+    background-color: #e5e7eb;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 100px 350px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-author {
+    font-size: 24px;
+    text-align: right;
+}
